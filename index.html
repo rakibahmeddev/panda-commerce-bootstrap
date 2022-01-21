@@ -19,7 +19,7 @@
 
     <!-- Heade starts  -->
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light py-3">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light py-3 fixed-top">
             <div class="container">
                 <a class="navbar-brand" href="#">
                     <img src="images/logo.png" alt="">
@@ -33,13 +33,13 @@
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Shoes</a>
+                            <a class="nav-link active" aria-current="page" href="#shoes">Shoes</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Backpacks</a>
+                            <a class="nav-link active" aria-current="page" href="#backpacks">Backpacks</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Subscribe</a>
+                            <a class="nav-link active" aria-current="page" href="#subscribe">Subscribe</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="#">Login / Sign Up</a>
@@ -51,7 +51,7 @@
         </nav>
 
         <!-- banner section  -->
-        <section class="container my-5">
+        <section class="container" style="margin-top: 7rem;">
             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <!-- items 1 -->
@@ -139,7 +139,7 @@
         </section>
 
         <!-- shoes area  -->
-        <section class="container my-5">
+        <section class="container my-5" id="shoes">
             <h2 class="mb-4">Shoes</h2>
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
                 <!-- item 1 -->
@@ -188,7 +188,7 @@
         </section>
 
         <!-- bags area  -->
-        <section class="container my-5">
+        <section class="container my-5" id="backpacks">
             <h2 class="mb-4">Bags</h2>
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
                 <!-- item 1 -->
@@ -237,7 +237,7 @@
         </section>
 
         <!-- subscribe area  -->
-        <section class="container rounded-3 my-5 d-flex justify-content-center align-items-center" style="background-color: #FCEAE8; height: 300px;">
+        <section class="container rounded-3 my-5 d-flex justify-content-center align-items-center" id="subscribe" style="background-color: #FCEAE8; height: 300px;">
             <div>
                 <h1>LET'S STAY IN TOUCH</h1>
                 <p>Get updates on sales, specials and more</p>
@@ -250,8 +250,8 @@
     <!-- main section ends  -->
 
     <!-- footer section starts -->
-    <footer>
-
+    <footer class="my-5">
+        <p class="text-center">Copyright © 2022 | All Right Reserved |</p>
     </footer>
     <!-- footer section ends -->
 
